@@ -26,24 +26,24 @@
 package org.niis.xroad.oasvalidatorplugin;
 
 public class ApiValidationResults {
-    private ApiValidationResult specificationValidationResult;
-    private ApiValidationResult styleValidationResult;
+    private ValidationResult specificationValidationResult;
+    private ValidationResult styleValidationResult;
     private String apiDefinitionPath;
 
-    public ApiValidationResult getSpecificationValidationResult() {
+    public ValidationResult getSpecificationValidationResult() {
         return specificationValidationResult;
     }
 
     public void setSpecificationValidationResult(
-            ApiValidationResult specificationValidationResult) {
+            ValidationResult specificationValidationResult) {
         this.specificationValidationResult = specificationValidationResult;
     }
 
-    public ApiValidationResult getStyleValidationResult() {
+    public ValidationResult getStyleValidationResult() {
         return styleValidationResult;
     }
 
-    public void setStyleValidationResult(ApiValidationResult styleValidationResult) {
+    public void setStyleValidationResult(ValidationResult styleValidationResult) {
         this.styleValidationResult = styleValidationResult;
     }
 
